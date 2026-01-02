@@ -1,0 +1,38 @@
+# Source files (only dist is needed)
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+tsconfig.json
+.eslintrc.js
+.prettierrc
+.gitignore
+jest.config.js
+gulpfile.js
+
+# IDE
+.idea/
+.vscode/
+
+# Development files
+*.ts
+!*.d.ts
+
+# Test files
+*.test.ts
+*.spec.ts
+coverage/
+
+# Docs (keep README)
+*.md
+!README.md
+!LICENSE
+!COMMERCIAL_LICENSE.md
+!LICENSING_FAQ.md
+
+# Misc
+.DS_Store
+*.log
+*.tgz
